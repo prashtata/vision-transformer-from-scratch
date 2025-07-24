@@ -1,9 +1,8 @@
-# Multihead Attention from Scratch (w/ ViT Extension)
+# Vision Transformer from Scratch
 
-This project implements **Multi-Head Attention** from scratch in PyTorch, inspired by the Transformer architecture from "Attention is All You Need." The goal is to understand and build attention mechanisms from the ground up, without relying on `torch.nn.MultiheadAttention`.
+This project implements **Multi-Head Attention** from scratch in PyTorch, with an implementation in Vision Transformer classification model inspired by the Transformer architecture from "Attention is All You Need" and "An Image is Worth 16x16 Words." The goal is to understand and build attention mechanisms from the ground up, without relying on `torch.nn.MultiheadAttention`.
 
-We are also laying the foundation for a **Vision Transformer (ViT) Autoencoder** trained on **CIFAR-10**, making this a modular and extensible project for modern deep learning research.
-
+We are also laying the foundation for a **Vision Transformer (ViT) Autoencoder** trained on **CIFAR-10**, making this a modular and extensible project for modern deep learning education.
 ## What's Inside
 
 ```
