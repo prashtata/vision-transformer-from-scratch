@@ -1,0 +1,4 @@
+-e . ##-e means pip installs the package in editable mode, changes made in the package files are reflected instantly without having to install again
+torch>=1.12
+pytest
+time

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+attention/__init__.py
+attention/multihead.py
+attention/utils.py
+tests/tests_mha.py
+vit/__init__.py
+vit/autoencoder.py
+vit/decoder.py
+vit/encoder.py
+vit/train_vit.py
+vit_from_scratch.egg-info/PKG-INFO
+vit_from_scratch.egg-info/SOURCES.txt
+vit_from_scratch.egg-info/dependency_links.txt
+vit_from_scratch.egg-info/requires.txt
+vit_from_scratch.egg-info/top_level.txt
