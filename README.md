@@ -53,6 +53,14 @@ out = mha(x, x, x)
 - Clean training loop using CIFAR-10
 - Will support patch embedding and masked autoencoding
 
+## Notebooks
+
+I present three notebooks in the following progression
+
+1. Implementing Multi-Head Attention from Scratch
+2. Different versions/iterations of MHA performing against PyTorch's MHA module
+3. Implementing MHA on a Vision Transformer
+
 ## Unit Tests
 
 Run all tests:
@@ -68,14 +76,6 @@ git clone https://github.com/yourusername/multihead-attention-from-scratch.git
 cd multihead-attention-from-scratch
 pip install -r requirements.txt
 ```
-
-## Demo Notebook
-
-The `notebook/demo.ipynb` contains:
-
-- Visualization of attention weights
-- Explanation of shapes and internals
-- Example inputs/outputs
 
 ## Dataset
 
