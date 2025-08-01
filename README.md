@@ -46,10 +46,10 @@ out = mha(x, x, x)
 Run all tests:
 
 ```bash
-pytest tests/
+pytest tests/tests_mha.py
 ```
 
-## Installation
+## Dependencies
 
 ```bash
 git clone https://github.com/yourusername/multihead-attention-from-scratch.git
