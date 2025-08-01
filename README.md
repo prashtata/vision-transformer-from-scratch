@@ -7,15 +7,27 @@ We are also laying the foundation for a **Vision Transformer (ViT) Autoencoder**
 
 ```
 multihead-attention-from-scratch/
-├── attention/              # Custom MultiHeadAttention and scaled dot-product
-├── vit/                    # Vision Transformer encoder, decoder, autoencoder
-├── data/                   # CIFAR-10 dataset utilities
-├── scripts/                # CLI-based training / toy examples
-├── notebook/               # Interactive demo with visualizations
-├── tests/                  # Unit tests for core components
-├── README.md
-├── requirements.txt
-└── setup.py
+│
+├── mha/
+│   └── implementations.py        # All MHA class variants in one file
+│
+├── tests/
+│   └── test_mha.py               # All tests: shape, speed, equivalence
+│
+├── benchmark/
+│   └── run_benchmark.py          # Benchmark runner comparing MHA variants
+│
+├── notebooks/
+│   └── 03_torch_vs_custom.ipynb  # (Optional) For visualizing attention & performance
+│
+├── .github/
+│   └── workflows/
+│       └── test.yml              # GitHub Actions workflow for CI
+│
+├── README.md                     # Full project description and instructions
+├── requirements.txt              # Dependencies
+└── setup.py                      # Makes the project installable as a package
+
 ```
 
 ## Modules Overview
