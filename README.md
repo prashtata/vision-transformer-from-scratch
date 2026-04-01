@@ -3,32 +3,6 @@
 This project implements **Multi-Head Attention** from scratch in PyTorch, with an implementation in Vision Transformer classification model inspired by the Transformer architecture from "Attention is All You Need" and "An Image is Worth 16x16 Words." The goal is to understand and build attention mechanisms from the ground up, without relying on `torch.nn.MultiheadAttention`.
 
 We are also laying the foundation for a **Vision Transformer (ViT) Autoencoder** trained on **CIFAR-10**, making this a modular and extensible project for modern deep learning education.
-## What's Inside
-
-```
-multihead-attention-from-scratch/
-│
-├── mha/
-│   └── implementations.py        # All MHA class variants in one file
-│
-├── tests/
-│   └── test_mha.py               # All tests: shape, speed, equivalence
-│
-├── benchmark/
-│   └── run_benchmark.py          # Benchmark runner comparing MHA variants
-│
-├── notebooks/
-│   └── 03_torch_vs_custom.ipynb  # (Optional) For visualizing attention & performance
-│
-├── .github/
-│   └── workflows/
-│       └── test.yml              # GitHub Actions workflow for CI
-│
-├── README.md                     # Full project description and instructions
-├── requirements.txt              # Dependencies
-└── setup.py                      # Makes the project installable as a package
-
-```
 
 ## Modules Overview
 
